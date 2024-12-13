@@ -1,0 +1,151 @@
+#app {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 3em;
+}
+
+button {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    background-color: #FF6600;
+    color: #f0f0f0;
+    border-radius: 3em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+input {
+    all: unset;
+    border: #101010 solid 0.1em;
+    border-radius: 3em;
+    padding: 0.5em 1em;
+}
+
+button:hover{
+    background-color: #c34f00;
+    color: #e0e0e0;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#services {
+    display: flex;
+    width: 100%;
+}
+
+#serviceMenu {
+    display: flex;
+    flex-direction: column;
+    border-right: #e3e3e3 solid 0.25em;
+    margin-right: 1em;
+    padding-right: 1em;
+}
+
+#serviceActions {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#serviceList {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#serviceList ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+#serviceList li {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    background-color: #f0f0f0;
+    color: #101010;
+    border-radius: 3em;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    cursor: pointer;
+    width: 50%;
+}
+
+#serviceList li:hover {
+    background-color: #e0e0e0;
+    color: #101010;
+}
+
+#login > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login > h1, #login input, #login button {
+    margin: 1em;
+}
+
+#actionPlaceHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    font-size: 2em;
+}
+
+#serviceActions {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+#logs {
+    flex-grow: 1;
+    overflow: auto;
+}
+
+#actionHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#actionButtons {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#actionButtons > button {
+    padding: 0.5em 1em;
+    margin: 0.5em;
+}
+
+#actionName {
+    display: flex;
+    justify-content: center;
+}
+
+#actionName > h2 {
+    font-size: 3em;
+    margin: 0;
+}
